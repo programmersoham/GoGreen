@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
   .container {
   text-align: center;
   height: 100%;
@@ -7,6 +7,12 @@
   background-size: cover;
   padding: 55px 130px 1px 190px;
   color: black;
+}
+.containe .img{
+  width: fit-content;
+  display: block;
+  margin: auto;
+
 }
 .centered {
   position: absolute;
