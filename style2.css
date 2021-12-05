@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+:root {
+  --primary-color: rgb(49, 226, 17);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0rem;
+}
+hr {
+  margin: 2rem 0rem;
+}
+
+ 
+ .container
+{
+    padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+ 
+  color: white;
+ 
+  border-radius: 0.5rem;
+}
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+}
+.primary-link:hover {
+  background-color:rgb(241, 33, 33);
+}
+.secondary-link:hover {
+  background-color:rgb(236, 222, 17);
+}
+/* list */
+.non-bullet {
+  list-style: none;
+}
+.list-inline {
+  list-style: none;
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+/* navigation */
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.navigation .link {
+  color: white;
+}
+.navigation .link:hover {
+  color: rgb(60, 0, 255);
+}
+.navigation .nav-pills {
+  text-align: right;
+}
+.navigation .nav-brand {
+  font-weight: bolder;
+  /* font-size: 1.5rem; */
+}
+.navigation .link-active {
+  font-weight: bolder;
+}
+/* heaeder */
+.hero {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+.hero .hero-img {
+  max-width:300px;
+  display: block;
+  margin: auto;
+
+}
+.hero .hero-heading {
+  font-size: 2rem;
+  color: rgb(110, 110, 109);
+  padding-top: 1rem;
+  text-align: center;
+}
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+/* sections */
+.section {
+  padding: .5rem 0rem 2rem;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.section h1,
+h2,
+h3 {
+ 
+  text-align: center;
+  padding: 2rem;
+}
+/* .section p{
+ padding: 2rem; 
+} */
+.ow {
+  background-color: rgb(191, 215, 223);
+  padding: 0.5rem 0rem 2rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.footer{
+    background-color: rgb(27, 187, 236);
+    padding:  2rem 2rem 2rem 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    margin-top:2rem;
+}
+.footer .link{
+    color: white;
+}
+.footer .link:hover{
+    color: rgb(60, 0, 255);
+}
+.footer .footer-header{
+  font-weight:bold ;
+  font-size: large;
+  text-align: center;
+}
