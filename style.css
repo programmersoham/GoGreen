@@ -18,7 +18,7 @@
   font-weight: 700;
   font-style: normal;
    line-height: 50px;
-   color: #ffff;
+   color: rgb(223, 21, 21);
 }
 .container.Height{
   display: block;
@@ -29,4 +29,10 @@
   font-family: Montserrat;
   text-align: center;
   color:rgb(126, 123, 123);
+}
+.img{
+  width: fit-content;
+  padding: auto;
+  margin: auto;
+
 }
